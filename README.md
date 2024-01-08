@@ -5,8 +5,8 @@
 ## 2) Model Performance
 - The fine-tuned model was trained on kaggle with Nvidia Tesla P100 and batch_size=16 and shows promising results in classifying sarcastic versus non-sarcastic news headlines:
 
-  1) Training AUC Score: 0.9825
-  2) Validation AUC Score: 0.9868
+  1) Training AUC Score: 0.9868
+  2) Validation AUC Score: 0.9825
   3) Maximum F1 Score: 0.935 at a prediction threshold of 0.17.
 
 ###### Note: The decision boundary was tuned to optimize the F1 score. Depending on the specific use-case, the threshold can be adjusted to prioritize reducing false positives or negatives.
